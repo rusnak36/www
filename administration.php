@@ -1,4 +1,7 @@
 <?php
+$DBemail="";
+$DBusername="";
+
 include_once 'header.php';
 if (!isset($_SESSION["id"])) {
     header("location: login.php");
